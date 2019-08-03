@@ -8,7 +8,7 @@ public class Token {
 		NUMBER, INVALID, OPERATOR, ORGANIZER;
 	}
 	private Type type;
-	
+	 
 	public Token() {
 		token = ' ';
 		valid = false;
